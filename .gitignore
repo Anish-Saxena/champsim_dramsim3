@@ -1,0 +1,14 @@
+bin/
+obj/
+
+**/*.o
+**/*.d
+
+*.err
+
+core_inst.cc
+
+tracer/pin/obj-intel64/
+acho_dramsim_integration.txt
+16C_base_DDR_config_OPMSHR.json
+1C_DDR_config_OPMSHR.json
