@@ -1,7 +1,6 @@
-<p align="center">
-  <h1 align="center"> ChampSim </h1>
-  <p> ChampSim is a trace-based simulator for a microarchitecture study. You can sign up to the public mailing list by sending an empty mail to champsim+subscribe@googlegroups.com. If you have questions about how to use ChampSim, you can often receive a quicker response on the mailing list. Please reserve GitHub Issues for bugs. <p>
-</p>
+# ChampSim with DRAMSim3
+
+The file of interest is `dramsim3_wrapper.hpp`. Clone DRAMSim3 and link to it in `config.py`. Most source and header files are unchanged and have been excluded. Be sure to change the DRAMSim3 config file in `configs/16C_base_DDR.json`. 
 
 # Clone ChampSim repository
 ```
